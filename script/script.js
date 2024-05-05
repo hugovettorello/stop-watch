@@ -66,6 +66,6 @@ resetBtn.addEventListener("click", function(){
     seconds = 0;
     minutes = 0;
     hours = 0;
-
+    document.getElementById('startStopBtn').innerHTML = `<i class="fa fa-play" aria-hidden="true" id="play"></i>`
     document.getElementById("timer").innerHTML = "00:00:00"
 })
